@@ -53,15 +53,7 @@ h1 {
 }
 
 /* ***************nav bar****************** */
-nav {
-  /* background-color: gray; */
-  position: fixed;
-  z-index: 999999;
-  width: 100%;
-  padding: 5px 0;
-  animation: scroll-transition;
-  animation-timeline: scroll(y);
-}
+/* To Change nav Bar While scrolling */
 @keyframes scroll-transition{
   0%{
     background-color: transparent;
@@ -73,6 +65,17 @@ nav {
   background-color: #ff305940;
 }
 
+}
+/*  */
+
+nav {
+  /* background-color: gray; */
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  padding: 5px 0;
+  animation: scroll-transition;
+  animation-timeline: scroll(y);
 }
 
 
