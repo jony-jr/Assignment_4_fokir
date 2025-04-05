@@ -325,25 +325,14 @@ nav {
 }
 
 /**************************** All h2 Design in page**************** */
-.our-service h2,
-.our-portfolio h2,
-.feedback h2,
-.our-blog h2,
-.contact-us h2 {
+h2:not(.about-content h2) {
   color: #333333;
   text-align: center;
   font-size: 40px;
 }
-.our-service h2::after,
-.our-service h2::before,
-.our-portfolio h2::before,
-.our-portfolio h2::after,
-.feedback h2::before,
-.feedback h2::after,
-.our-blog h2::before,
-.our-blog h2::after,
-.contact-us h2::before,
-.contact-us h2::after {
+h2:not(.about-content h2)::before, 
+h2:not(.about-content h2)::after
+{
   content: "";
   left: 0;
   right: 0;
@@ -351,22 +340,16 @@ nav {
   position: absolute;
   border-color: #ff305b;
 }
-.our-service h2::before,
-.our-portfolio h2::before,
-.feedback h2::before,
-.our-blog h2::before,
-.contact-us h2::before {
+h2:not(.about-content h2)::before
+{
   border-style: solid;
   border-width: 1px 0;
   bottom: -20px;
   padding: 5px 0;
   width: 100px;
 }
-.our-service h2::after,
-.our-portfolio h2::after,
-.feedback h2::after,
-.our-blog h2::after,
-.contact-us h2::after {
+h2:not(.about-content h2)::after 
+{
   border-style: solid;
   border-width: 1px 0 0;
   bottom: -25px;
