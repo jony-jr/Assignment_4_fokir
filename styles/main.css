@@ -602,7 +602,7 @@ button.btn-all {
 /* ****ifram**** */
 .blog-card iframe {
   width: 100%;
-  height: 14.12vw;
+  aspect-ratio: 16/9;
   background: black;
 }
 
